@@ -2,6 +2,8 @@ import { Inter } from "next/font/google";
 import "@/app/globals.css";
 import Squares from "@/components/Squares";
 import PreLoader from "@/components/PreLoader";
+import { ModeProvider } from "@/contexts/ModeContext";
+import { Terminal } from "@/components/Terminal";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -18,19 +20,22 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${inter.className} antialiased relative bg-[#0a1a3c]`}>
-        <PreLoader />
-        <div className="fixed inset-0 -z-10 w-full h-full bg-[#020107]">
-          <Squares 
-            speed={0.5} 
-            squareSize={500}
-            direction="diagonal"
-            borderColor="#fff"
-            hoverFillColor="#132a4d"
-          />
-        </div>
-        <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:p-8">
-          {children}
-        </div>
+        <ModeProvider>
+          <PreLoader />
+          <div className="fixed inset-0 -z-10 w-full h-full bg-[#020107]">
+            <Squares 
+              speed={0.5} 
+              squareSize={500}
+              direction="diagonal"
+              borderColor="#fff"
+              hoverFillColor="#132a4d"
+            />
+          </div>
+          <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:p-8">
+            {children}
+          </div>
+          <Terminal />
+        </ModeProvider>
       </body>
     </html>
   );

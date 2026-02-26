@@ -7,39 +7,36 @@ import { Briefcase, Code, Users, Lightbulb } from "lucide-react";
 const Experience = () => {
   const internships = [
     {
-      role: "Software Development Intern",
-      company: "Sathi Systems Pvt Ltd", // Replace with actual company
-      duration: "May 2025 - July 2025", // Replace with actual dates
-      type: "web & API Development Traninee",
+      role: "Frontend Intern",
+      company: "Sathi Systems Pvt Ltd",
+      duration: "May 2025 - July 2025",
+      type: "Web & API Development Trainee",
       stack: ["Java", "Spring Boot", "React", "REST APIs"],
       work: [
-        "Developed my first full-stack feature from frontend to backend",
-        "Built frontend components and integrated with backend services",
-        "Worked on bug fixes and feature enhancements in existing codebase",
-        "Participated in code reviews and team standups"
+        "Developed full-stack features integrating frontend React components with Spring Boot backend services",
+        "Built and styled responsive UI components following established design patterns",
+        "Integrated REST APIs and handled data flow between frontend and backend layers",
+        "Worked on bug fixes and feature enhancements in production codebase",
+        "Participated in code reviews and daily team standups to align on project goals"
       ],
-      learned: "Gained hands-on experience with production codebases, learned to work within established patterns, and understood the importance of code quality and testing."
+      learned: "Gained hands-on experience with production codebases and enterprise development workflows. Learned to work within established patterns, understood the importance of code quality, and developed practical skills in full-stack integration and collaborative development."
     },
     
-      {
-  role: "Data Engineering Intern",
-  company: "Nelson In Research",
-  duration: "September 2025 – November 2025",
-  type: "Data Engineering & Automation",
-  stack: ["Python", "Selenium", "Data Cleaning", "CSV Processing"],
-
-  work: [
-    "Built Python-based automation scripts to collect structured data from web sources using Selenium",
-    "Performed data cleaning, normalization, and validation to ensure consistency across datasets",
-    "Processed and transformed CSV files for downstream analysis and reporting",
-    "Handled edge cases, missing values, and data inconsistencies during extraction and transformation",
-    "Collaborated with team members to refine data workflows and improve reliability of automated pipelines",
-    
-  ],
-
-  learned:
-    "Gained hands-on experience in data extraction and automation workflows, practical data cleaning techniques, and the importance of reliable data pipelines. Developed an understanding of real-world data quality issues and how automation can reduce manual processing effort."
-}
+    {
+      role: "Data Engineering Intern",
+      company: "Nelson In Research",
+      duration: "September 2025 – November 2025",
+      type: "Data Engineering & Automation",
+      stack: ["Python", "Selenium", "Data Cleaning", "CSV Processing"],
+      work: [
+        "Built Python automation scripts to collect structured data from web sources using Selenium",
+        "Performed data cleaning, normalization, and validation to ensure dataset consistency",
+        "Processed and transformed CSV files for downstream analysis and reporting",
+        "Handled edge cases, missing values, and data inconsistencies during extraction",
+        "Collaborated with team to refine data workflows and improve pipeline reliability"
+      ],
+      learned: "Gained hands-on experience in data extraction and automation workflows. Learned practical data cleaning techniques and the importance of reliable data pipelines. Developed understanding of real-world data quality issues and how automation reduces manual processing effort."
+    }
 
   ];
 

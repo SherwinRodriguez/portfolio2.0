@@ -85,6 +85,10 @@ body {
   --sidebar-accent-foreground: oklch(0.985 0 0);
   --sidebar-border: oklch(1 0 0 / 10%);
   --sidebar-ring: oklch(0.556 0 0);
+  
+  /* Mode Context CSS Variables */
+  --accent-primary: 168, 85, 247; /* purple-500 */
+  --accent-secondary: 59, 130, 246; /* blue-500 */
 }
 
 @layer base {
@@ -94,6 +98,19 @@ body {
   body {
     @apply bg-background text-foreground;
   }
+}
+
+/* 3D Card Effects */
+.perspective-1000 {
+  perspective: 1000px;
+}
+
+.preserve-3d {
+  transform-style: preserve-3d;
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
 }
 
 /* ProfileCard Styles */

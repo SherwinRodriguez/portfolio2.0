@@ -64,7 +64,7 @@ const Home = () => {
             Download Resume
           </a>
           <a
-            href="https://github.com/sherwinemmanuelrodriguezp"
+            href="https://github.com/SherwinRodriguez"
             className="px-8 py-4 border border-white/20 text-white text-lg hover:bg-white/10 rounded-xl font-medium transition"
           >
             <Github className="w-5 h-5 mr-2 inline-block" />

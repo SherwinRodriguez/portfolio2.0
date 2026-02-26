@@ -61,21 +61,21 @@ const projects = [
     image: "/HalfInch.png",
   },
   {
-    title: "Next Project",
-    problem: "Planning a microservices-based application to learn distributed systems concepts",
-    description: "Working on a project that will use Docker, message queues, and multiple services communicating via APIs. Goal is to understand how to build and deploy distributed applications.",
-    tech: ["Java", "Spring Boot", "Docker", "RabbitMQ", "PostgreSQL"],
+    title: "EmailPay",
+    problem: "Web2 users face barriers to entering Web3 due to complex wallet creation and cryptocurrency transfers",
+    description: "A Web3 onboarding solution built inside the Vincent app that enables users to create PKP (Programmable Key Pair) wallets using their email through Lit Protocol. Simplifies crypto transfers by allowing users to send cryptocurrency via email.",
+    tech: ["Solidity", "Hardhat", "Gmail API", "Lit Protocol", "VincentJS"],
     architecture: [
-      "Microservices architecture with multiple Spring Boot services",
-      "API Gateway for routing requests",
-      "Message queue for async communication between services",
-      "Docker Compose for local development setup"
+      "PKP wallet creation using Lit Protocol's email authentication",
+      "Email-based cryptocurrency transfer system",
+      "Integration with Vincent app ecosystem",
+      "Smart contract deployment for secure transactions"
     ],
-    learned: "Still in planning phase. Want to learn about service discovery, load balancing, and how to handle failures in distributed systems.",
-    status: "Planned",
-    tags: ["Microservices", "System Design", "Docker", "Learning"],
-    link: "#",
-    image: "/Upcoming.png",
+    learned: "Learned how to bridge Web2 and Web3 experiences, implement Lit Protocol for decentralized authentication, and create user-friendly crypto interfaces that abstract away blockchain complexity.",
+    status: "Completed",
+    tags: ["Web3", "Lit Protocol", "User Onboarding", "PKP Wallets"],
+    link: "https://github.com/SherwinRodriguez/EmailPay-vincent-app",
+    image: "/Emailpay.png",
   },
 ];
 

@@ -19,6 +19,9 @@ module.exports = {
           "66%": { transform: "translate(-20px, 20px) scale(0.9)" },
         },
       },
+      perspective: {
+        '1000': '1000px',
+      },
     },
   },
   plugins: [

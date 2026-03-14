@@ -24,16 +24,17 @@ const Navbar = () => {
         initial={{ y: -60, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.6, ease: "easeOut" }}
-        className="fixed top-5 left-1/2 -translate-x-1/2 z-50 w-[95vw] md:w-[92vw] lg:w-[90vw] max-w-6xl bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl px-4 md:px-5 lg:px-6 py-4 shadow-xl"
+        className="fixed top-3 md:top-5 left-1/2 -translate-x-1/2 z-50 w-[95vw] md:w-[92vw] lg:w-[90vw] max-w-6xl bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl px-4 md:px-5 lg:px-6 py-3 md:py-4 shadow-xl"
       >
         <div className="flex justify-between items-center w-full">
           {/* Logo */}
           <motion.h1
-            className="text-white font-bold text-sm md:text-base tracking-wide whitespace-nowrap"
+            className="text-white font-bold text-sm md:text-base tracking-wide whitespace-nowrap max-w-[68vw] sm:max-w-none truncate"
             whileHover={{ scale: 1.05 }}
           >
             <span className="bg-gradient-to-r from-indigo-400 via-pink-400 to-yellow-400 bg-clip-text text-transparent">
-              Sherwin Rodriguez
+              <span className="sm:hidden">Sherwin</span>
+              <span className="hidden sm:inline">Sherwin Rodriguez</span>
             </span>
           </motion.h1>
 

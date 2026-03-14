@@ -22,7 +22,7 @@ const Home = () => {
   return (
     <section
       id="home"
-      className="scroll-mt-28 min-h-screen flex flex-col-reverse md:flex-row items-center justify-between px-6 md:px-20 pt-32 md:pt-24 gap-5"
+      className="scroll-mt-28 min-h-screen flex flex-col-reverse md:flex-row items-center justify-between px-6 md:px-20 pt-32 md:pt-24 gap-8 md:gap-5"
     >
       {/* Text Side */}
       <motion.div
@@ -58,14 +58,14 @@ const Home = () => {
         >
           <a
             href="/resume.pdf"
-            className="px-8 py-4 bg-indigo-500 hover:bg-indigo-600 text-white text-lg rounded-xl font-medium transition flex items-center"
+            className="w-full sm:w-auto max-w-xs px-8 py-4 bg-indigo-500 hover:bg-indigo-600 text-white text-lg rounded-xl font-medium transition flex items-center justify-center"
           >
             <Download className="w-5 h-5 mr-2" />
             Download Resume
           </a>
           <a
             href="https://github.com/SherwinRodriguez"
-            className="px-8 py-4 border border-white/20 text-white text-lg hover:bg-white/10 rounded-xl font-medium transition"
+            className="w-full sm:w-auto max-w-xs px-8 py-4 border border-white/20 text-white text-lg hover:bg-white/10 rounded-xl font-medium transition text-center"
           >
             <Github className="w-5 h-5 mr-2 inline-block" />
             View Github

@@ -44,10 +44,10 @@ const Contact = () => {
             <h3 className="text-xl sm:text-2xl font-semibold mb-6">Contact Links</h3>
             <div className="flex flex-col gap-5 text-white/90 text-sm sm:text-base">
               <a
-                href="mailto:sherwin7rodriguez10@gmail.com"
+                href="mailto:sherwinrodriguez.dev@gmail.com"
                 className="flex items-center gap-3 hover:text-indigo-400 transition"
               >
-                <Mail size={20} /> sherwin7rodriguez10@gmail.com
+                <Mail size={20} /> sherwinrodriguez.dev@gmail.com
               </a>
               <a
                 href="https://www.linkedin.com/in/sherwin-emmanuel-rodriguez-67445b290/"

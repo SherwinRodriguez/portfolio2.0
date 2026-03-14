@@ -19,7 +19,7 @@ const projects = [
       "MongoDB for storing invoice data with proper indexing"
     ],
     learned: "This project taught me how to implement JWT authentication from scratch, handle file uploads, and think through security considerations for a real product. Still working on optimizing the verification flow.",
-    status: "In Progress",
+    status: "Completed",
     tags: ["Full-Stack", "Security", "REST API", "Authentication"],
     link: "https://github.com/SherwinRodriguez/QuoteGuard",
     image: "/QuoteGuard.png",

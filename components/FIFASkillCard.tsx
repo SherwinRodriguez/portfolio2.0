@@ -25,7 +25,7 @@ export const FIFASkillCard = () => {
   return (
     <div className="perspective-1000 w-full max-w-sm mx-auto">
       <motion.div
-        className="relative w-full h-[480px] cursor-pointer preserve-3d"
+        className="relative w-full h-[500px] cursor-pointer preserve-3d"
         onHoverStart={() => setIsFlipped(true)}
         onHoverEnd={() => setIsFlipped(false)}
         onClick={() => setIsFlipped(!isFlipped)}
@@ -94,13 +94,13 @@ export const FIFASkillCard = () => {
         >
           <div className="w-full h-full bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 p-6 flex flex-col">
             {/* Header */}
-            <div className="text-center mb-6">
+            <div className="text-center mb-4">
               <h3 className="text-2xl font-bold text-white mb-2">TECH STATS</h3>
               <div className="h-1 w-16 mx-auto bg-gradient-to-r from-purple-500 to-blue-500 rounded-full" />
             </div>
 
             {/* Skills List */}
-            <div className="flex-1 space-y-4">
+            <div className="flex-1 min-h-0 space-y-3">
               {skills.map((skill, idx) => (
                 <motion.div
                   key={skill.name}
@@ -144,7 +144,7 @@ export const FIFASkillCard = () => {
             </div>
 
             {/* Footer */}
-            <div className="mt-4 text-center">
+            <div className="mt-2 pt-3 border-t border-white/10 text-center shrink-0">
               <div className="text-white/40 text-xs mb-2">Overall Rating</div>
               <div className="text-4xl font-bold text-yellow-400">88</div>
             </div>
